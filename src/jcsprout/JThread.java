@@ -1,7 +1,5 @@
 package jcsprout;
 
-import lombok.Synchronized;
-
 /**
  * @author created by glinlf
  * @date 2018/11/11

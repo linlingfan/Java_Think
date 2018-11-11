@@ -51,7 +51,7 @@
     </dependencies>
 
     <build>
-        <finalName>J-8</finalName>
+        <finalName>Java_Think</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>

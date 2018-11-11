@@ -1,6 +1,4 @@
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+
 
 import java.io.Serializable;
 
@@ -9,9 +7,6 @@ import java.io.Serializable;
  * @date 2018/9/2
  * @remark
  */
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class User implements Serializable {
 
     private Integer id;
@@ -51,4 +46,12 @@ public class User implements Serializable {
                 '}';
     }
 
+    public User(Integer id, String name, Integer age) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
+
+    public User() {
+    }
 }
