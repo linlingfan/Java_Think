@@ -1,3 +1,5 @@
+package com.glinlf.stream;
+
 import java.util.Optional;
 
 /**

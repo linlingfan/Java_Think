@@ -1,3 +1,5 @@
+package com.glinlf.stream;
+
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

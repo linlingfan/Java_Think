@@ -1,6 +1,7 @@
+package com.glinlf.stream;
+
 import com.google.common.base.Strings;
 
-import java.lang.reflect.Array;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -58,12 +59,12 @@ public class StreamJ8 {
                 .filter(item -> item.getAge() > 22)
                 .forEach(val -> System.out.println(val));
 
-        // stream 并行处理 parallel()
+        // com.glinlf.stream 并行处理 parallel()
         // parallel方法并行处理所有的users，并使用reduce方法计算最终的结果
         int avgage = users
                 .stream()
                 .parallel()
-//                .mapToInt(User::getAge)
+//                .mapToInt(com.glinlf.stream.User::getAge)
                 .map(user -> user.getAge())
                 .reduce(0, Integer::sum) / users.size();
 //                .sum()/users.size();
@@ -77,7 +78,7 @@ public class StreamJ8 {
 
         // 并发执行
 
-//        users.stream().parallel();
+//        users.com.glinlf.stream().parallel();
 //        users.parallelStream();
     }
 

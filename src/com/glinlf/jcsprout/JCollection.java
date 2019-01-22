@@ -1,4 +1,4 @@
-package jcsprout;
+package com.glinlf.jcsprout;
 
 import org.junit.jupiter.api.Test;
 

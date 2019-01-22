@@ -1,4 +1,4 @@
-
+package com.glinlf.stream;
 
 import java.io.Serializable;
 
@@ -39,7 +39,7 @@ public class User implements Serializable {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "com.glinlf.stream.User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +

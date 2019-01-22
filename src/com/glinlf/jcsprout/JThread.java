@@ -1,4 +1,4 @@
-package jcsprout;
+package com.glinlf.jcsprout;
 
 /**
  * @author created by glinlf
